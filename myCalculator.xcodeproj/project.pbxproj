@@ -12,6 +12,7 @@
 		5E624C8B1C87D38200BAE3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E624C891C87D38200BAE3AB /* Main.storyboard */; };
 		5E624C8D1C87D38200BAE3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E624C8C1C87D38200BAE3AB /* Assets.xcassets */; };
 		5E624C901C87D38200BAE3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E624C8E1C87D38200BAE3AB /* LaunchScreen.storyboard */; };
+		5E624C981C87D4FE00BAE3AB /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E624C971C87D4FE00BAE3AB /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		5E624C8C1C87D38200BAE3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E624C8F1C87D38200BAE3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E624C911C87D38200BAE3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E624C971C87D4FE00BAE3AB /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		5E624C991C87D50B00BAE3AB /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,8 @@
 		5E624C841C87D38200BAE3AB /* myCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				5E624C991C87D50B00BAE3AB /* Minecraft.ttf */,
+				5E624C971C87D4FE00BAE3AB /* btn.wav */,
 				5E624C851C87D38200BAE3AB /* AppDelegate.swift */,
 				5E624C871C87D38200BAE3AB /* ViewController.swift */,
 				5E624C891C87D38200BAE3AB /* Main.storyboard */,
@@ -125,6 +130,7 @@
 				5E624C901C87D38200BAE3AB /* LaunchScreen.storyboard in Resources */,
 				5E624C8D1C87D38200BAE3AB /* Assets.xcassets in Resources */,
 				5E624C8B1C87D38200BAE3AB /* Main.storyboard in Resources */,
+				5E624C981C87D4FE00BAE3AB /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
