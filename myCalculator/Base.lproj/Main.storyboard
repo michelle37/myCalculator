@@ -24,6 +24,12 @@
                                     <constraint firstAttribute="width" secondItem="ivF-zw-78t" secondAttribute="height" multiplier="1:1" id="cic-eZ-dJO"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="Euu-8O-hOe">
+                                <rect key="frame" x="156" y="130" width="288" height="442"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="tcP-93-NIG">
+                                <rect key="frame" x="156" y="58" width="288" height="72"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -40,6 +46,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backpanel" width="620" height="938"/>
+        <image name="counter" width="516" height="133"/>
         <image name="space-bg" width="988" height="946"/>
     </resources>
 </document>
