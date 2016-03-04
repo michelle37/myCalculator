@@ -54,9 +54,7 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Euu-8O-hOe" firstAttribute="centerY" secondItem="uL2-Px-myX" secondAttribute="centerY" id="F6c-C7-9p8"/>
                                     <constraint firstItem="tcP-93-NIG" firstAttribute="centerX" secondItem="uL2-Px-myX" secondAttribute="centerX" id="WmN-82-9c9"/>
-                                    <constraint firstItem="tcP-93-NIG" firstAttribute="centerY" secondItem="uL2-Px-myX" secondAttribute="centerY" id="b4h-T7-cDx"/>
                                     <constraint firstItem="Euu-8O-hOe" firstAttribute="centerX" secondItem="uL2-Px-myX" secondAttribute="centerX" id="bmq-mw-TNu"/>
                                 </constraints>
                             </stackView>
