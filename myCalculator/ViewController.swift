@@ -13,19 +13,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var outPutLb1: UILabel!
     
-    var btnSound: AVAudioPlayer
-    var runningNum = ""
-    var leftNum = ""
-    var rightNum = ""
-    var currentOperation = ""
+    var btnSound: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let path = NSBundle.mainBundle().pathForResource("btn", ofType: "war")
         let soundUrl = NSURL(fileURLWithPath: path!)
+
         do{
-           try! btnSound = AVAudioPlayer(contentsOfURL: soundUrl)
+           try btnSound = AVAudioPlayer(contentsOfURL: soundUrl)
+            btnSound.prepareToPlay()
         }catch let err as NSError{
             print(err.debugDescription)
             
@@ -34,7 +32,7 @@ class ViewController: UIViewController {
     }
 
      @IBAction func numPressed(sender: UIButton){
-    
+        btnSound.play()
     }
 
 
