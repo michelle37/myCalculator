@@ -147,6 +147,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="pJY-9J-nQu"/>
                                                 </constraints>
                                                 <state key="normal" image="1"/>
+                                                <connections>
+                                                    <action selector="numPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upM-UY-NHe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S5-cG-ysz">
                                                 <rect key="frame" x="90" y="0.0" width="70" height="67"/>
